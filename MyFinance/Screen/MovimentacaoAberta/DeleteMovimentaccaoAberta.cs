@@ -53,7 +53,7 @@ public static class DeleteMovimentaccaoAberta
         }
         catch (Exception ex)
         {
-            AnsiConsole.MarkupLine($"[red]Erro ao excluir Movimentação {ex.Message}[/]");
+            AnsiConsole.MarkupLine($"[red]Erro ao excluir movimentação {ex.Message}[/]");
         }
         finally
         {

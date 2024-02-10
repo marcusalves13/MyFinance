@@ -63,7 +63,7 @@ public class CreateMovimentaoAberta
         }
         catch (Exception ex)
         {
-            AnsiConsole.MarkupLine($"[red]Erro ao inserir movimentação itens disponiveis {ex.Message}[/]");
+            AnsiConsole.MarkupLine($"[red]Erro ao inserir movimentação {ex.Message}[/]");
         }
         finally 
         {

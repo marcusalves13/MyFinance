@@ -39,7 +39,7 @@ namespace MyFinance.Screen.Itens
             }
             catch (Exception ex)
             {
-                AnsiConsole.MarkupLine($"[red]Erro ao excluido Item {ex.Message}[/]");
+                AnsiConsole.MarkupLine($"[red]Erro ao excluir Item {ex.Message}[/]");
             }
             finally
             {

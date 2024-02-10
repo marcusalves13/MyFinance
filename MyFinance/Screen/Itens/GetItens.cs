@@ -32,7 +32,7 @@ namespace MyFinance.Screen.Itens
             }
             catch (Exception ex)
             {
-                AnsiConsole.MarkupLine($"[red]Erro ao Listar Item {ex.Message}[/]");
+                AnsiConsole.MarkupLine($"[red]Erro ao listar Item {ex.Message}[/]");
             }
             finally
             {

@@ -45,7 +45,7 @@ public static class UpdateItem
         }
         catch (Exception ex)
         {
-            AnsiConsole.MarkupLine($"[red]Erro ao atualizar Item {ex.Message}[/]");
+            AnsiConsole.MarkupLine($"[red]Erro ao atualizar item {ex.Message}[/]");
         }
         finally
         {
